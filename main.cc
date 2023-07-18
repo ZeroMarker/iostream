@@ -27,5 +27,25 @@ int main(void) {
 
   v1.push_back(4);
   v1.resize(6, 0);
+
+  enum class day { mon, tue, wed, thu, fri, sat, sun };
+  day d1 = day::mon;
+
+  int i = 2;
+  if(int x = 2 * i; x < 10) {
+    std::cout << x << '\n';
+  }
+
+  using real = double;
+  real pi = 3.14;
+  std::cout << pi << '\n';
+
+  std::int16_t i16 = 1234;
+  std::cout << i16 << '\n';
+
+  double *p1 = nullptr;
+  p1 = &pi;
+  std::cout << *p1 << '\n';
+  
   return 0;
 }
