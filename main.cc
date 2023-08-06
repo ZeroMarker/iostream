@@ -2,9 +2,9 @@
 #include <vector>
 
 int main(void) {
-  long  l1 = -7856974990L;
+  long  l1 = -785697499L;
   long long  l2 = 89565656974990LL;
-  long l3 = 512'232'697'499;
+  long l3 = 232'697'499L;
   
   int a = 23;
   int b {34};
