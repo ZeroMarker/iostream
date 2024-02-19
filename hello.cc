@@ -51,10 +51,7 @@ namespace Parent {
 namespace Parent::Child1 {
 
 }
-namespace Father::
-inline Son {
 
-}
 
 int main() {
     // Null pointer
