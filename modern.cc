@@ -4,4 +4,4 @@ int main() {
     std::println("Hello, world!");
 }
 
-// g++ hello.cpp -std=c++23
+// g++ hello.cc -std=c++23
