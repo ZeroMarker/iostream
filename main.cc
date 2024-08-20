@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <print>
+#include <cstdint>
 
 int main(void) {
     long  l1 = -785697499L;
@@ -46,6 +48,8 @@ int main(void) {
     double *p1 = nullptr;
     p1 = &pi;
     std::cout << *p1 << '\n';
+
+    std::print("{0} {2}{1}!\n", "Hello", 23, "C++"); // overload (2)
 
     return 0;
 }
