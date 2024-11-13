@@ -12,7 +12,7 @@ int main(void) {
     int b {34};
     auto x = a <=> b;
     if(x < 0) {
-    std::cout << "Less" << '\n';
+        std::cout << "Less" << '\n';
     }
 
     double   d {1.23456};  // OK
@@ -35,7 +35,7 @@ int main(void) {
 
     int i = 2;
     if(int x = 2 * i; x < 10) {
-    std::cout << x << '\n';
+        std::cout << x << '\n';
     }
 
     using real = double;
