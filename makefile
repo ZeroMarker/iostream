@@ -5,3 +5,4 @@ run:
 	./a.exe
 clean:
 	rm *.exe
+

@@ -14,5 +14,9 @@
 
 [CPP Reference](https://en.cppreference.com/w/)
 
+[STL tutorial](https://cui-jiacai.gitbook.io/c++-stl-tutorial)
+
+[Learn CPP](https://learncpp.readthedocs.io/zh-cn/latest/)
+
 [std::endl vs n in cpp](https://www.geeksforgeeks.org/endl-vs-n-in-cpp/)
 
