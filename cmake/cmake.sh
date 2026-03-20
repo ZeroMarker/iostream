@@ -1,10 +1,6 @@
-mkdir project
-cd project
+sudo snap install cmake --classic
 
-vi main.cpp
-vi CMakeLists.txt
-
-mkdir build
-cmake ..
-cmake --build .
+cmake -S . -B build   # configure
+cmake --build build   # build
+./build/my_program    # run (adjust executable name)
 
